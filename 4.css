@@ -1,0 +1,103 @@
+* {
+  margin: 5px;
+  padding: 4px;
+  font-family: sans-serif;
+}
+body {
+  background-image: url(img/photo1.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30pt;
+  color: rgb(0, 0, 0);
+}
+h2 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15pt;
+  color: black;
+}
+h3 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15pt;
+  color: black;
+}
+
+header {
+  border-radius: 1em;
+  background-color: #fcefc3;
+  float: top;
+  text-align: center;
+  text-decoration: none;
+}
+nav {
+  background: initial;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+.menu {
+  border-radius: 1em;
+  background-color: #e9d491;
+  text-decoration: none;
+  height: min-content;
+}
+.menu:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+div {
+  background-color: #fbdb6d;
+  border-radius: 1em;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  background: initial;
+  border-radius: 1em;
+}
+.col1 {
+  grid-column: 1/4;
+  background: iniial;
+}
+.col3 {
+  grid-column: 2/4;
+  background: iniial;
+}
+.col5 {
+  grid-column: 2/4;
+  background: iniial;
+}
+.col7 {
+  grid-column: 2/4;
+  background: inital;
+}
+.col9 {
+  grid-column: 2/4;
+}
+footer{
+  background-color: #fbdb6d ;
+  border-radius: 1em;
+  text-align: center;
+}
+footer img{
+  float:right;
+}
+.col20{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background:initial;
+  border-radius: 1em;
+  text-align: center;
+}
+.col40{
+  grid-column: 1/2;
+}
+.col30{
+  grid-column: 2/4;
+}
